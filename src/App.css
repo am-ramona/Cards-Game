@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+  background-color: #24292E;
+  padding: 20px 30px;
+}
+
+header {
+  font-size: 13px;
+  color: #AEAEBA;
+  text-align: center;
+  line-height: 2;
+  border: 1px solid #363D4D;
+  border-radius: 8px;
+  padding: 8px 12px 12px;
+}
+
+.CardsContainer {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: auto auto auto auto;
+    -ms-grid-columns: auto auto auto auto;
+    grid-gap: 20px; 
+}
+
+.monthlyMetrics {
+width: 100%;
+}
+
+.farmMetrics {
+    align-self: flex-start;
+    margin-bottom:30px;
+}
+
+.title {
+text-align: center;
+line-height: 2.2;
+}
+

@@ -1,0 +1,10 @@
+.Card {
+    background-color: #363D4D;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.line {
+      font-size: 13px;
+      color: #AEAEBA;
+}
