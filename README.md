@@ -4,12 +4,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-**Note: First, for this project, if you have Node version 17.0 installed, you will get an error:
-error:0308010C:digital envelope routines::unsupported.
-To solve the error, you need to downgrade node version
-command: nvm install 16.13.0 or type:
+**Note: the latest Node version 17.0 requires to type 
 export NODE_OPTIONS=--openssl-legacy-provider 
-in the terminal before starting the project.
+in the console to solve an error ( error:0308010C ) before starting the project.
+
+Another way to solve this error is to downgrade node version
+command: nvm install 16.13.0 
+
+( full error: error:0308010C:digital envelope routines::unsupported. )
 
 In the project directory, you can run:
 
@@ -18,7 +20,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
 ### `npm test`
