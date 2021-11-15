@@ -1,29 +1,28 @@
-let Months = [];
-export default Months = [
+export let Months = [
   {
     id: 0,
     name: "January",
-    value:1
+    value: 1
   },
   {
     id: 1,
     name: "February",
-    value:2
+    value: 2
   },
   {
     id: 2,
     name: "March",
-    value:3
+    value: 3
   },
   {
     id: 3,
     name: "April",
-    value:4
+    value: 4
   },
   {
     id: 4,
     name: "May",
-    value:5
+    value: 5
   },
   {
     id: 5,
@@ -33,17 +32,17 @@ export default Months = [
   {
     id: 6,
     name: "July",
-    value:7
+    value: 7
   },
   {
     id: 7,
     name: "August",
-    value:8
+    value: 8
   },
       {
     id: 8,
     name: "September",
-    value:9
+    value: 9
   },
     {
     id: 9,
@@ -58,6 +57,6 @@ export default Months = [
       {
     id: 11,
     name: "December",
-    value:12
+    value: 12
     }
 ];

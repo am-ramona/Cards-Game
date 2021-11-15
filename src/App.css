@@ -19,24 +19,30 @@ header {
 }
 
 .CardsContainer {
-    display: grid;
-    display: -ms-grid;
-    grid-template-columns: auto auto auto auto;
-    -ms-grid-columns: auto auto auto auto;
-    grid-gap: 20px; 
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: repeat(auto-fit, 250px);
+  grid-template-columns: repeat(auto-fit, 250px);
+  justify-content: center;
+  grid-gap: 20px;
 }
 
 .monthlyMetrics {
-width: 100%;
+  width: 100%;
 }
 
 .farmMetrics {
-    align-self: flex-start;
-    margin-bottom:30px;
+  align-self: flex-start;
+  margin-bottom: 30px;
 }
 
 .title {
-text-align: center;
-line-height: 2.2;
+  text-align: center;
+  line-height: 2.2;
 }
 
+select {
+  background: #363D4D;
+  border: 0;
+  color: #fff;
+}
