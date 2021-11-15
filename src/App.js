@@ -55,11 +55,11 @@ function App() {
         <b className="title">MONTHLY METRICS</b>
         <div className="CardsContainer">
           {result.length > 0 &&
-            result.map((card) => {
+            result.map((card, index) => {
               let month = card.bucket;
    
               return (
-                <BasicCard
+                <BasicCard key={index}
                   energyProduced={card.energyProduced}
                   energyLost={card.energyLost}
                   availability={
