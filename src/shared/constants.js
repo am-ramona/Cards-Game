@@ -1,4 +1,5 @@
-export const Months = [
+let Months = [];
+export default Months = [
   {
     id: 0,
     name: "January",
@@ -26,13 +27,13 @@ export const Months = [
   },
   {
     id: 5,
-    name: "Juin",
+    name: "June",
     value: 6
   },
   {
     id: 6,
     name: "July",
-      value:7
+    value:7
   },
   {
     id: 7,
@@ -47,12 +48,12 @@ export const Months = [
     {
     id: 9,
     name: "October",
-    value:10
+    value: 10
     },
       {
     id: 10,
     name: "November",
-    value:11
+    value: 11
   },
       {
     id: 11,

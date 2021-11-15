@@ -8,21 +8,21 @@ export default function BasicCard(props) {
       <div>
         <div className="line">
           Energy produced:
-          <span style={{ color: "white" }}> {props.energyProduced}</span> Mwh
+          <span className="whiteNumber"> {props.energyProduced}</span> Mwh
         </div>
         <div className="line">
           Energy lost:
-          <span style={{ color: "white" }}> {props.energyLost}</span> Mwh
+          <span className="whiteNumber"> {props.energyLost}</span> Mwh
         </div>
         <div className="line">
-          Availability:{" "}
-          <span style={{ color: props.availability >= 0.97 ? "green" : "red" }}> 
-            {props.availability}{" "}
+          Availability: 
+          <span style={{ color: props.availability >= 0.97 ? "green" : "red" }}>
+             {props.availability}
           </span>
-          %{" "}
+          %
         </div>
         <div className="line">
-          Worst turbine: <span style={{ color: "white" }}> {}</span>
+          Worst turbine: <span className="whiteNumber"> {}</span>
         </div>
       </div>
     </div>
