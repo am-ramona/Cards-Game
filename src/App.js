@@ -54,17 +54,7 @@
             }, Object.create(null))
           );
 
-        var maxEnergyProduced = grouped.reduce(function (total, currentValue) {
-          return total + currentValue.energyProduced;
-        }, 0);
-
-        var maxEnergyLost = grouped.reduce(function (total, currentValue) {
-          return total + currentValue.energyLost;
-        }, 0);
-
         setGrouped(grouped);
-        setMaxEnergyProduced(maxEnergyProduced);
-        setMaxEnergyLost(maxEnergyLost);
 
         // console.log(grouped, "grouped");
       }
