@@ -14,7 +14,7 @@
 
     useEffect(() => {
       const url =
-        `https://interview-availability-api.herokuapp.com/availability-data?from=` +
+        `https://api.herokuapp.com/availability-data?from=` +
         month1 +
         `&to=` +
         month2;
